@@ -9,10 +9,6 @@ import sys
 import time
 
 
-def nothing(x):
-    pass
-
-
 while True:
     # Will be used for looping for the contour section
     loop = 0
