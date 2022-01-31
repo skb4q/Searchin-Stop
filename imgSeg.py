@@ -18,7 +18,7 @@ while True:
     loop = 0
 
     # Display the image in a window
-    img = cv2.imread('Stop Sign 8.jpg')
+    img = cv2.imread('Stop Sign 2.jpg')
 
     # Use HSV to create a mask to filter out all the colors to produce mainly red
     hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
